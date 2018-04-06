@@ -21,3 +21,8 @@ $ node express.js
 # 서버 실행 포트 변경
 $ node express.js --port 8080
 ```
+
+
+## 개발 환경 설정
+
+TODO: localhost 기준으로 mysql, dynamo, redis, elasticsearch 설치하여 돌리는 방법.
