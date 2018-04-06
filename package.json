@@ -8,5 +8,9 @@
   },
   "author": "steve (steve@lemoncloud.io)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.2",
+    "js-yaml": "^3.11.0",
+    "lemoncloud-backbone-js": "^1.1.0"
+  }
 }
