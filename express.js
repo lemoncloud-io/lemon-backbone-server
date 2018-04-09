@@ -108,7 +108,7 @@ app.get('/dynamo/:type/:id/:cmd',   middle, handle_dynamo);
 app.put('/dynamo/:type/:id',        middle, handle_dynamo);
 app.put('/dynamo/:type/:id/:cmd',   middle, handle_dynamo);
 app.post('/dynamo/:type/:id',       middle, handle_dynamo);
-app.delete('/dynamo/:type',         middle, handle_dynamo);
+app.delete('/dynamo/:type/:id',     middle, handle_dynamo);
 
 //! elastic
 app.get('/elastic',                 middle, handle_elastic);
@@ -118,7 +118,7 @@ app.get('/elastic/:type/:id/:cmd',  middle, handle_elastic);
 app.put('/elastic/:type/:id',       middle, handle_elastic);
 app.post('/elastic/:type/:id',      middle, handle_elastic);
 app.post('/elastic/:type/:id/:cmd', middle, handle_elastic);
-app.delete('/elastic/:type',        middle, handle_elastic);
+app.delete('/elastic/:type/:id',    middle, handle_elastic);
 
 //! mysql
 app.get('/mysql',                   middle, handle_mysql);
@@ -127,7 +127,7 @@ app.get('/mysql/:type/:id',         middle, handle_mysql);
 app.get('/mysql/:type/:id/:cmd',    middle, handle_mysql);
 app.put('/mysql/:type/:id',         middle, handle_mysql);
 app.post('/mysql/:type/:id',        middle, handle_mysql);
-app.delete('/mysql/:type',          middle, handle_mysql);
+app.delete('/mysql/:type/:id',      middle, handle_mysql);
 
 //! redis
 app.get('/redis',                   middle, handle_redis);
@@ -136,7 +136,7 @@ app.get('/redis/:type/:id',         middle, handle_redis);
 app.get('/redis/:type/:id/:cmd',    middle, handle_redis);
 app.put('/redis/:type/:id',         middle, handle_redis);
 app.post('/redis/:type/:id',        middle, handle_redis);
-app.delete('/redis/:type',          middle, handle_redis);
+app.delete('/redis/:type/:id',      middle, handle_redis);
 
 
 /** ********************************************************************************************************************
